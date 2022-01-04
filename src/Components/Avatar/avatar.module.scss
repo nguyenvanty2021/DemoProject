@@ -1,0 +1,15 @@
+.avatar {
+    position: relative;
+    margin-bottom: 1rem;
+    &__status {
+        color: rgb(26, 202, 26);
+        background-color: rgb(26, 202, 26);
+        position: absolute;
+        bottom: 10%;
+        right: 0;
+        border-radius: 50%;
+        width: 0.75rem;
+        border: 1px solid #ffffff;
+        height: 0.75rem;
+    }
+}

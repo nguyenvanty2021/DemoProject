@@ -1,0 +1,71 @@
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+.width {
+  width: 100%;
+}
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+// column
+.flex-start-column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.flex-end-column {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.flex-between-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.flex-around-column {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+//@import "./template.scss;
+// Example
+// .btn-confirm-style {
+//   @extend .btn-no-style;
+// }

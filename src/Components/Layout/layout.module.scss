@@ -1,0 +1,51 @@
+@import "./../../styles/template.scss";
+.layout {
+  height: 100vh;
+  @extend .width;
+  overflow: hidden;
+  &__content {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    max-height: 100vh;
+    overflow: auto;
+    @extend .width;
+  }
+  &__header {
+    @extend .flex-between;
+    padding: 0 1rem;
+    &__icon {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    &__avatar {
+      @extend .flex-end;
+      h4 {
+        margin-left: 0.75rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background-color: #ffffff;
+  @extend .width;
+}
